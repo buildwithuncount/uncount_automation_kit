@@ -2,7 +2,7 @@
   UNCOUNT – Data Services in Powerpoint
 </h1>
 
-# 1. Baue dir alles was du brauchst:
+# 1. Baue dir alles was du brauchst
 Die App ermöglicht eine automatisierte One-Click Erstellung einer Präsentation und entlastet somit deine Mitarbeiter, z.b. bei
   - Monthly, quarterly, and yearly reports
   - Paid media and campaign performance dashboards
