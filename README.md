@@ -23,7 +23,7 @@ Top Performer anzeigen:
 report.insertTextOnSlide(f"{top_posts['facebook_Impressionen_top1']['Clicks']}", slide, "Inhaltsplatzhalter 6")
 ```
 
-Chart einfügen:
+Chart einfügen an bestimmter Stelle:
 ```python
 report.insertChartOnSlide(df, charts.balkendiagramm, slide, 'Titel 22', 2, 4, 18, 14)
 ```
