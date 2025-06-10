@@ -1,7 +1,6 @@
-<div style="background-color: white; color: grey; padding: 15px 0px 5px 0px;" align="center">
-  <img src="https://raw.githubusercontent.com/buildwithuncount/uncount_automation_kit/refs/heads/main/uncount.png" width="450" alt="Logo" />
-<p align="center">Data Services in Powerpoint</p>
-</div><br>
+
+<img src="https://raw.githubusercontent.com/buildwithuncount/uncount_automation_kit/refs/heads/main/uncount_logo.png" width="100%"><br>
+
 
 # 1. Baue dir alles was du brauchst:
 Die App ermöglicht eine automatisierte One-Click Erstellung einer Präsentation und entlastet somit deine Mitarbeiter, z.B. bei
