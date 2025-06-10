@@ -2,9 +2,9 @@
   UNCOUNT – Data Services in Powerpoint
 </h1>
 
-# 1. Baue dir alles was du brauchst
-Die App ermöglicht eine automatisierte One-Click Erstellung einer Präsentation und entlastet somit deine Mitarbeiter, z.b. bei
-  - Monthly, quarterly, and yearly reports
+# 1. Baue dir alles was du brauchst:
+Die App ermöglicht eine automatisierte One-Click Erstellung einer Präsentation und entlastet somit deine Mitarbeiter, z.B. bei
+  - Monthly, Quarterly, and Yearly reports
   - Paid media and campaign performance dashboards
   - Channel-specific reports (social, SEO, PPC, email, content)
   - Competitor benchmarking and executive summary dashboards
@@ -37,7 +37,7 @@ Daten werden im Design gezeigt
 # 3. Die Automatisierung selbst nimmt nicht viel Zeit in Anspruch
 
 - Richte das Design im Master so ein wie dein Kunde es wünscht
-- Lade jede Form von Daten rein, zb Social Media Performance, Ad Conversions, Shop Sales oder Community Feedback als CSV oder Excel
+- Lade jede Form von Daten rein, z.b. Social Media Performance, Ad Conversions, Shop Sales oder Community Feedback als CSV oder Excel
 - In der app.py definierst du, welche Daten automatisiert in die Präsentation kommen
 
 <br /><br />
