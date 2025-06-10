@@ -1,6 +1,10 @@
-<h1 align="center">
-  UNCOUNT – Data Services in Powerpoint
-</h1>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/buildwithuncount/uncount_automation_kit/refs/heads/main/uncount.png" width="200" alt="Nerd Fonts Logo" /><br />
+</div>
+<p align="center">
+Data Services in Powerpoint
+</p><br />
+
 
 # 1. Baue dir alles was du brauchst:
 Die App ermöglicht eine automatisierte One-Click Erstellung einer Präsentation und entlastet somit deine Mitarbeiter, z.B. bei
