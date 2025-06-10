@@ -3,8 +3,7 @@
 </div>
 <p align="center">
 Data Services in Powerpoint
-</p><br />
-
+</p>
 
 # 1. Baue dir alles was du brauchst:
 Die App ermöglicht eine automatisierte One-Click Erstellung einer Präsentation und entlastet somit deine Mitarbeiter, z.B. bei
