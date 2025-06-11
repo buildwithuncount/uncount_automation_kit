@@ -37,21 +37,15 @@ def balkendiagramm(df):
     # Farbschemen: https://seaborn.pydata.org/tutorial/color_palettes.html
     sns.set(rc={'axes.facecolor':config.background_color, 'figure.facecolor':config.background_color, 'axes.edgecolor' : 'none', 'grid.color': '#ffffff', 'grid.linestyle': ':'})
 
-    # Add labels to bars
     for p in ax.patches:
         ax.annotate(format(p.get_height(), '.0f'), (p.get_x() + p.get_width() / 2., p.get_height()), ha = 'center', va = 'center', xytext = (0, 10), textcoords = 'offset points')
 
-    # Remove x-axis and y-axis
     ax.set(yticklabels=[])
-    #ax.set_xticklabels(filtered_df['year_month'])
 
-    # Remove frame
     sns.despine(left=True, bottom=True)
-    #plt.xlabel('Monat')
     plt.ylabel('')
     plt.xlabel('')
     
-    # Speichere den Chart in einem Buffer
     buffer = io.BytesIO()
     plt.savefig(buffer, format='png', transparent=True)
     buffer.seek(0)
