@@ -47,7 +47,6 @@ class OneSecondDeck(Deliverable):
 
         self.presentation.save(f"{config.output_folder}/{config.output_file}")
         print(f"# # # # Datei erstellt # # # #")
-        #playsound(f"{config.userfolder_path}pres/ready.mp3")
 
         return  
 
@@ -64,9 +63,7 @@ class OneSecondDeck(Deliverable):
                 gesuchter_platzhalter = platzhalter
                 break
 
-        # Überprüfen, ob der Platzhalter gefunden wurde
         if gesuchter_platzhalter:
-            # Hier kannst du den Platzhalter manipulieren, z.B. Text hinzufügen
             gesuchter_platzhalter.text = content
             print(f"Erfolgreich platziert: {platzhalter_name}")
 
@@ -77,19 +74,16 @@ class OneSecondDeck(Deliverable):
 
     def insertImageOnSlide(self, image_path, slide_nr, placeholder_name, pos_left:int, pos_top:int, pos_width:int, pos_height:int, placeBehind = False):
         try:
-            slide_nr -= 1  # Um von der angegebenen Slide-Nummer auf den Index zu gelangen
+            slide_nr -= 1  
 
-            # Slide auswählen
             slide = self.presentation.slides[slide_nr]
 
-            # Platzhalter mit dem angegebenen Namen finden
             gesuchter_platzhalter = None
             for platzhalter in slide.placeholders:
                 if platzhalter.name == placeholder_name:
                     gesuchter_platzhalter = platzhalter
                     break
 
-            # Überprüfen, ob der Platzhalter gefunden wurde
             if gesuchter_platzhalter:
                 # Bild in die Slide einfügen und die Größe in Zentimetern anpassen
                 left = Cm(pos_left)  # Horizontaler Abstand vom linken Rand (1 Zoll entspricht 2.54 Zentimetern)
@@ -99,13 +93,10 @@ class OneSecondDeck(Deliverable):
                 picture = slide.shapes.add_picture(image_path, left, top, width, height)
                 
                 if placeBehind == True:
-                    # Verschiebe das Bild ans Ende der Liste der Shapes auf der Folie
                     shapes = slide.shapes._spTree
                     shapes.remove(picture._element)
                     shapes.insert(2, picture._element)  # Füge das Bild an Position 2 ein, um es unter anderen Objekten zu platzieren
                     
-
-                #slide.placeholder[0].insert_picture(image_path)
                 print(f"Erfolgreich Bild in {placeholder_name} auf Slide {slide_nr + 1} in Zentimetern eingefügt.")
             else:
                 print(f"Platzhalter mit dem Namen '{placeholder_name}' wurde nicht gefunden auf Slide {slide_nr + 1}.")
@@ -124,10 +115,8 @@ class OneSecondDeck(Deliverable):
 
         slide = self.presentation.slides[slide_nr]
 
-        # Zugriff auf die Moderatornotizen (notes_slide) der Folie
         notes_slide = slide.notes_slide
         
-        # Text in die Moderatornotizen einfügen
         notes_slide.notes_text_frame.text = content
         return True
 
