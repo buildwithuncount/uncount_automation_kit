@@ -4,8 +4,6 @@ import charts as charts
 from pres import Deliverable
 from data import functions as data_f
 
-# pip3 install numpy matplotlib plotly plotly-express python-pptx seaborn python-dotenv duckdb pandas
-
 if __name__ == "__main__":
 
     try:
