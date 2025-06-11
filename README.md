@@ -42,11 +42,12 @@ Daten werden im Design gezeigt
 
 <br><br>
 # 4. Schnelle Installation
-- Die Installation der App ist kinderleicht und basiert auf der weit verbreiteten Programmiersprache Python. Du kannst die aktuelle Version auf python.org laden, um die App einzurichten. Zusätzlich wird ein OpenAI Konto benötigt mit API Key, um sie mit KI zu verknüpfen.
-- Die App wird z.B. über mit Automator aufgerufen und ausgeführt
+- Die Installation der App ist kinderleicht und basiert auf der weit verbreiteten Programmiersprache Python. Du kannst die aktuelle Version auf python.org laden, um die App einzurichten. Optional ist ein OpenAI Konto mit API Key, um sie mit KI zu verknüpfen.
+- Läuft einwandfrei mit Python 3.9.0
+- Installiere eine Environment mit den Dependencies und platziere die Files darin. Du solltest die app.py schon ausführen können und der Report wird im Ordner output/magic_report erstellt
+- Im Alltag wird die app.py z.B. über Automator aufgerufen
 - config.py: Hier konfigurierst du deine App
 - requirements.txt: Die Module, die du installieren musst, findest du in der requirements.txt. Bitte achte darauf, dass du die richtigen Versionsnummern der Module installierst, die in der requirements.txt angegeben sind
-- Läuft einwandfrei mit Python 3.9.0
 
 
 <br><br>
