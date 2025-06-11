@@ -1,3 +1,4 @@
+import os
 
 project = "magic_report"
 
@@ -24,7 +25,7 @@ activate_ki = 1
 single_ki = 0
 
 seiten = "Seiten"
-info = "asd"
+info = "None"
 answers = None
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -37,8 +38,8 @@ answers = None
 
 title = "Facebook Report Light"
 
-userfolder_path = "" 
-
+userfolder_path = os.path.dirname(os.path.abspath(__file__))
+userfolder_path = f"{userfolder_path}/" 
 
 # Pfad zum Eingangsordner (masters) und zur Eingabe-Datei (Master.pptx)
 input_folder = f"{userfolder_path}masters/{project}"
