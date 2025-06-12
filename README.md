@@ -1,6 +1,7 @@
 
 <img src="https://raw.githubusercontent.com/buildwithuncount/uncount_automation_kit/refs/heads/main/uncount_logo.png" width="100%"><br>
 
+# Reportings und Insights sollten immer auf den Kunden und seine Dienstleistung zugeschnitten sein. Agenturen brauchen ein Tool, das weiß, wie gute Insights entstehen und auch weiß, wie man gute Kundenbeziehungen in Agenturen aufbaut. uncount bietet dir dafür ein System für die Automatisierung an – komplett Open Source. Es sollte ein System sein, das zentral steuerbar ist und die Qualität der Dokumente und Insights sichert!
 
 # 1. Baue dir alles was du brauchst:
 Die App ermöglicht eine automatisierte One-Click Erstellung einer Präsentation und entlastet somit deine Mitarbeiter, z.B. bei
