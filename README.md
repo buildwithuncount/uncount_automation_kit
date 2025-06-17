@@ -51,6 +51,6 @@ Output: Daten werden im Design gezeigt
 
 
 <br><br>
-# Kontakt
+# Support & Entwicklung
 - Hilfe: ben@truetrueberlin.com
 - Impressum: [Impressum](https://truetrueberlin.com "truetrueberlin.com")
