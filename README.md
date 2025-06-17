@@ -41,10 +41,6 @@ Output: Daten werden im Design gezeigt
 - In der app.py definierst du, welche Daten automatisiert in die Präsentation kommen
 
 <br><br>
-Beispiel einer Automatisierung aller Deliverables in der Agentur:
-![Architektur](https://buildwithuncount.com/pitch/img/uncount_deliverable_architecture.png)
-
-<br><br>
 # 4. Schnelle Installation
 - Die Installation der App ist kinderleicht und basiert auf der weit verbreiteten Programmiersprache Python. Du kannst die aktuelle Version auf python.org laden, um die App einzurichten. Optional ist ein OpenAI Konto mit API Key, um sie mit KI zu verknüpfen.
 - Läuft einwandfrei mit Python 3.9.0
