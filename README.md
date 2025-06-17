@@ -40,6 +40,8 @@ Output: Daten werden im Design gezeigt
 - Lade jede Form von Daten rein, z.b. Social Media Performance, Ad Conversions, Shop Sales oder Community Feedback als CSV oder Excel
 - In der app.py definierst du, welche Daten automatisiert in die Präsentation kommen
 
+<br><br>
+Beispiel einer Automatisierung aller Deliverables in der Agentur:
 ![Architektur](https://buildwithuncount.com/pitch/img/uncount_deliverable_architecture.png)
 
 <br><br>
