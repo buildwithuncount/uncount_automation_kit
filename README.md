@@ -29,8 +29,7 @@ Chart einfügen an bestimmter Stelle:
 report.insertChartOnSlide(df, charts.balkendiagramm, slide, 'Titel 22', 2, 4, 18, 14)
 ```
 <br><br>
-Daten werden im Design gezeigt
-**Output**
+Output: Daten werden im Design gezeigt
 
 ![- Bild fehlt -](https://github.com/FINII-Apps/holy-social-media-report-light/blob/main/screenshot.png?raw=true "Output of Script")
 
@@ -40,6 +39,8 @@ Daten werden im Design gezeigt
 - Richte das Design im Master so ein wie dein Kunde es wünscht
 - Lade jede Form von Daten rein, z.b. Social Media Performance, Ad Conversions, Shop Sales oder Community Feedback als CSV oder Excel
 - In der app.py definierst du, welche Daten automatisiert in die Präsentation kommen
+
+![Architektur](https://buildwithuncount.com/pitch/img/uncount_deliverable_architecture.png)
 
 <br><br>
 # 4. Schnelle Installation
