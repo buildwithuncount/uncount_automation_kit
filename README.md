@@ -52,5 +52,5 @@ Output: Daten werden im Design gezeigt
 
 <br><br>
 # Support & Entwicklung
-- Hilfe: ben@truetrueberlin.com
-- Impressum: [Impressum](https://truetrueberlin.com "truetrueberlin.com")
+- Hilfe: ben@buildwithuncount.com
+- Impressum: [Impressum](https://buildwithuncount.com/gallery/index.html#footer "buildwithuncount.com")
